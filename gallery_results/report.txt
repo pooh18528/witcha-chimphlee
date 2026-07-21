@@ -1,0 +1,1467 @@
+============================================
+Gallery Check Results for dusit.ac.th pages
+============================================
+
+--- https://www.dusit.ac.th/home/2026/2075364.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c-15-7-69
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/2043747.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2026-06-24-e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/2043513.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-6-69-ae-ncds
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/2030121.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 15-6-69-ae-e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1992297.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-5-69-ae-e0b8aae0b8a0e0b8b2e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1992195.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-5-69-ae-e0b8aae0b8a0e0b8b2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1958124.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 23-4-69-ae-e0b884e0b8b8e0b8a2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1956534.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 22-4-69-ae-e0b894e0b8b9e0b887e0b8b2e0b899e0b8aae0b8a0e0b8b2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1956102.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 22-04-2569-e0b89be0b8a3e0b8b0e0b88ae0b8b8e0b8a1e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1926995.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2026-03-18-yo1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1904176.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 5-3-69-ae-e0b8aae0b8a0e0b8b2e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1883155.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2025-02-18-yo2-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2026/1838691.html ---
+Year: 2026
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 21-01-2568-e0b89be0b8a3e0b8b0e0b88ae0b8b8e0b8a1e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1806315.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2025-12-24-e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1755910.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 19-11-68-ae-e0b8aae0b8a0e0b8b2-e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1717314.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-1-168
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1671817.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 18-9-68-ae-e0b884e0b8b8e0b8a2-e0b984e0b89b-e0b984e0b8abe0b899
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1670026.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2025-09-17-yo2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1557509.html ---
+Year: 2025
+Status: OK - 21 img tags found
+NextGen Gallery: YES
+  Folder(s): 18-5-121
+  Image count (from thumbnails): 16
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1516467.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 18-6-68-ae-e0b8aae0b8a0e0b8b2e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1481117.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 21-5-68-ae-e0b8aae0b8a0e0b8b2e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1465701.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-4-68-ae-e0b8aae0b8a0e0b8b2e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1447688.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2025-03-19-e0b8aae0b8a0e0b8b2-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1428790.html ---
+Year: 2025
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2025-02-19-e0b8a5e0b8b3e0b89ee0b8ade0b887-2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1423495.html ---
+Year: 2025
+Status: OK - 21 img tags found
+NextGen Gallery: YES
+  Folder(s): 10-2-68-ae-e0b89be0b8a3e0b8b0e0b88ae0b8b8e0b8a1
+  Image count (from thumbnails): 16
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2025/1412227.html ---
+Year: 2025
+Status: OK - 23 img tags found
+NextGen Gallery: YES
+  Folder(s): 22-22-1
+  Image count (from thumbnails): 18
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1395386.html ---
+Year: 2024
+Status: OK - 22 img tags found
+NextGen Gallery: YES
+  Folder(s): 18-32
+  Image count (from thumbnails): 17
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1375041.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-11-67-ae-e0b8aae0b8a0e0b8b2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1362991.html ---
+Year: 2024
+Status: OK - 65 img tags found
+NextGen Gallery: YES
+  Folder(s): 25-10-67-ae-e0b8a3e0b989e0b8ade0b887-1, 25-10-67-ae-e0b8a3e0b989e0b8ade0b887-3, 25-10-67-ae-e0b8a3e0b989e0b8ade0b887-2
+  Image count (from thumbnails): 60
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1356789.html ---
+Year: 2024
+Status: OK - 57 img tags found
+NextGen Gallery: YES
+  Folder(s): 16-10-84
+  Image count (from thumbnails): 17
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2024/1338773.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 18-9-67-ae-e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1317210.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2024-08-27-yo2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1293333.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2024-07-17-e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1291301.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 13-1-117
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1287794.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 8-7-67-ae-e0b89be0b88a
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1285448.html ---
+Year: 2024
+Status: OK - 20 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-12-83
+  Image count (from thumbnails): 15
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1276991.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2024-06-19-e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1268648.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 29-5-67-ae-e0b8aae0b8a0e0b8b2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1266348.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 21-8-76
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1252805.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 17-4-67-ae-e0b8aae0b8a0e0b8b2-e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1241519.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 25-7-86
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1238647.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-11-76
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1228556.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 27-2-67-p
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1226861.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 21-21-4
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2024/1206098.html ---
+Year: 2024
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 17-4-109
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1194714.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-12-66-ae-e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b98ce0b8a2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1182313.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 22-11-66-ae-e0b8aae0b896e0b8b2-e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1165210.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 18-10-66-ae-e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1151239.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-9-66-ae-e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1150611.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 19-9-66-ae-e0b8aae0b8a0e0b8b2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1136124.html ---
+Year: 2023
+Status: OK - 19 img tags found
+NextGen Gallery: YES
+  Folder(s): 16-20-1
+  Image count (from thumbnails): 14
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1124185.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2033-07-19-2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1111063.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2023-06-21-yo2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1102629.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 31-1-82
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1101404.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 26-1-106
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1099341.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-5-66-p2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1087313.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 19-4-66-ae-e0b8aae0b8a0e0b8b2-s
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1076396.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2023-03-22-yo2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1069075.html ---
+Year: 2023
+Status: OK - 15 img tags found
+NextGen Gallery: YES
+  Folder(s): 2-3-100
+  Image count (from thumbnails): 10
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1068928.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 1-2-93
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1066359.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 22-2-66-ae-e0b8aae0b8a0e0b8b2-e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1064819.html ---
+Year: 2023
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-4-90
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2023/1047510.html ---
+Year: 2023
+Status: OK - 15 img tags found
+NextGen Gallery: YES
+  Folder(s): 12-3-85
+  Image count (from thumbnails): 10
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/1043299.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 26-2-100
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/1040842.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 22-12-65-ae-e0b8aae0b8a0e0b8b2e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/1033990.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 9-12-65-ae-e0b8aae0b8b8e0b8a3e0b8b4e0b899e0b897e0b8a3e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/1032443.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2-8-72
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/1029014.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 23-11-65-ae-e0b8aae0b8a0e0b8b2-e0b980e0b8a5e0b987e0b881
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/1013450.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 19-10-65-ae-e0b8aae0b8a0e0b8b2e0b884e0b893e0b8b2e0b888e0b8b2e0b8a3e0b8a2e0b98c
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/1006652.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2022-09-20-yo4
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2022/995772.html ---
+Year: 2022
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 17-8-65-ae-e0b8aae0b8a0e0b8b2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/938400.html ---
+Year: 2021
+Status: OK - 24 img tags found
+NextGen Gallery: YES
+  Folder(s): 17-12-64-ae-e0b882e0b8b6e0b989e0b899e0b882e0b988e0b8b2e0b8a7-e0b8a7e0b8b4e0b897e0b8a2e0b890e0b8b2e0b899e0b8b0
+  Image count (from thumbnails): 19
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/938077.html ---
+Year: 2021
+Status: OK - 19 img tags found
+NextGen Gallery: YES
+  Folder(s): 16-3-84
+  Image count (from thumbnails): 14
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/937819.html ---
+Year: 2021
+Status: OK - 20 img tags found
+NextGen Gallery: YES
+  Folder(s): 15-11-67
+  Image count (from thumbnails): 15
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/937288.html ---
+Year: 2021
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2021-12-14-yo1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/878384.html ---
+Year: 2021
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 8-8-65
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/877603.html ---
+Year: 2021
+Status: OK - 19 img tags found
+NextGen Gallery: YES
+  Folder(s): 5-3-70
+  Image count (from thumbnails): 14
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/884031.html ---
+Year: 2021
+Status: OK - 20 img tags found
+NextGen Gallery: YES
+  Folder(s): 30-3-67
+  Image count (from thumbnails): 15
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/882308.html ---
+Year: 2021
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2021-03-24-yo2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/876704.html ---
+Year: 2021
+Status: OK - 17 img tags found
+NextGen Gallery: YES
+  Folder(s): 1-5-67
+  Image count (from thumbnails): 12
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2021/871900.html ---
+Year: 2021
+Status: OK - 21 img tags found
+NextGen Gallery: YES
+  Folder(s): 2021-01-28-yo1
+  Image count (from thumbnails): 16
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/840785.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 14-9-63-ae-e0b8a1e0b8ade0b89ae0b899e0b982e0b8a2e0b89ae0b8b2e0b8a2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/864859.html ---
+Year: 2020
+Status: OK - 6 img tags found
+NextGen Gallery: NO
+WordPress Gallery: YES (1 images)
+
+--- https://www.dusit.ac.th/home/2020/864726.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 14-12-63-ae-green-youth
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/859979.html ---
+Year: 2020
+Status: OK - 17 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-1-66
+  Image count (from thumbnails): 12
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/854026.html ---
+Year: 2020
+Status: OK - 22 img tags found
+NextGen Gallery: YES
+  Folder(s): 2-11-63-ae-mou
+  Image count (from thumbnails): 17
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/845482.html ---
+Year: 2020
+Status: OK - 85 img tags found
+NextGen Gallery: YES
+  Folder(s): 28-1-64, 28-2-64, 28-3-63, 28-4-60
+  Image count (from thumbnails): 80
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/844545.html ---
+Year: 2020
+Status: OK - 14 img tags found
+NextGen Gallery: YES
+  Folder(s): 25-16
+  Image count (from thumbnails): 9
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/835954.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2020-08-22-train
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/809188.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 9-3-63-e0b8ade0b89ae0b8a3e0b8a1e0b881e0b8a5e0b8a2e0b8b8e0b897e0b898
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/808346.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 6-3-63-e0b887e0b8b2e0b899e0b980e0b8aae0b8a7e0b899e0b8b2-e0b8a3e0b8a3-e0b881e0b88ee0b8abe0b8a1e0b8b2e0b8a2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/801148.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 15-2-63-aucc-ajcc
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/796052.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 28-1-22
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2020/795546.html ---
+Year: 2020
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-1-63-ae-aucc
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/704519.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 11-7-62-ae-aucc
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/735726.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 6-9-62-bond-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/720275.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 6-8-62-bond-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/715233.html ---
+Year: 2019
+Status: OK - 14 img tags found
+NextGen Gallery: YES
+  Folder(s): 1-8-62-bond-1-e0b884e0b8b8e0b893e0b8abe0b88de0b8b4e0b887e0b881e0b8b1e0b8a5e0b8a2e0b8b2
+  Image count (from thumbnails): 9
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/711326.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-7-62-bond-1-e0b896e0b8a7e0b8b2e0b8a2e0b89ee0b8a3e0b8b0e0b89ee0b8a3
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/700532.html ---
+Year: 2019
+Status: OK - 17 img tags found
+NextGen Gallery: YES
+  Folder(s): 4-2-19
+  Image count (from thumbnails): 12
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/693305.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 19-6-62-bond-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/690459.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 17-6-62-e0b89be0b8a3e0b8b0e0b88ae0b8b8e0b8a1e0b8a7e0b8b4e0b88ae0b8b2e0b881e0b8b2e0b8a3e0b884e0b893e0b8b0e0b8a7e0b8b4e0b897-bond
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/688471.html ---
+Year: 2019
+Status: OK - 17 img tags found
+NextGen Gallery: YES
+  Folder(s): 12-10-3
+  Image count (from thumbnails): 12
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/688304.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 12-2-14
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/651299.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 1-5-62-ae-e0b8ade0b8b2e0b88ae0b8b5e0b8a7
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/641961.html ---
+Year: 2019
+Status: OK - 15 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-1-20
+  Image count (from thumbnails): 10
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/606761.html ---
+Year: 2019
+Status: OK - 21 img tags found
+NextGen Gallery: YES
+  Folder(s): 25-3-62-2
+  Image count (from thumbnails): 16
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/602283.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-3-62-bond-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2019/583224.html ---
+Year: 2019
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 15-2-62-bond-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/554754.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 4-12-61ae3
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/545631.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 15-11-61ae1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/515001.html ---
+Year: 2018
+Status: OK - 21 img tags found
+NextGen Gallery: YES
+  Folder(s): 8-10-61-bond-2
+  Image count (from thumbnails): 16
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/478281.html ---
+Year: 2018
+Status: OK - 21 img tags found
+NextGen Gallery: YES
+  Folder(s): 19-2-14
+  Image count (from thumbnails): 16
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/465247.html ---
+Year: 2018
+Status: OK - 12 img tags found
+NextGen Gallery: YES
+  Folder(s): 20-5-6
+  Image count (from thumbnails): 7
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/460013.html ---
+Year: 2018
+Status: OK - 16 img tags found
+NextGen Gallery: YES
+  Folder(s): 86-2
+  Image count (from thumbnails): 11
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/451838.html ---
+Year: 2018
+Status: OK - 23 img tags found
+NextGen Gallery: YES
+  Folder(s): 2311-6
+  Image count (from thumbnails): 18
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/441906.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 1-5-61-bond
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/436327.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 24-4-61ae2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/421844.html ---
+Year: 2018
+Status: OK - 15 img tags found
+NextGen Gallery: YES
+  Folder(s): 281-9
+  Image count (from thumbnails): 10
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/414640.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 720
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/404651.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 122-6
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/402910.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 64-3
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/402055.html ---
+Year: 2018
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2-2-61-bond
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2018/399483.html ---
+Year: 2018
+Status: OK - 12 img tags found
+NextGen Gallery: YES
+  Folder(s): 263-5
+  Image count (from thumbnails): 7
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/374709.html ---
+Year: 2017
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 22-11-60-1-ae
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/354891.html ---
+Year: 2017
+Status: OK - 14 img tags found
+NextGen Gallery: YES
+  Folder(s): 3112
+  Image count (from thumbnails): 9
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/347180.html ---
+Year: 2017
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 10-8-60-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/320661.html ---
+Year: 2017
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 295-2
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/318244.html ---
+Year: 2017
+Status: OK - 14 img tags found
+NextGen Gallery: YES
+  Folder(s): 241-6
+  Image count (from thumbnails): 9
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/317657.html ---
+Year: 2017
+Status: OK - 11 img tags found
+NextGen Gallery: YES
+  Folder(s): 1911
+  Image count (from thumbnails): 6
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/317023.html ---
+Year: 2017
+Status: OK - 23 img tags found
+NextGen Gallery: YES
+  Folder(s): 171-4
+  Image count (from thumbnails): 18
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/315287.html ---
+Year: 2017
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 9-5-60-bond
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/299273.html ---
+Year: 2017
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 27-3-60-bond-1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/297262.html ---
+Year: 2017
+Status: OK - 13 img tags found
+NextGen Gallery: YES
+  Folder(s): 222-4
+  Image count (from thumbnails): 8
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2017/277252.html ---
+Year: 2017
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2017-02-03-terr-vit
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2016/262907.html ---
+Year: 2016
+Status: OK - 58 img tags found
+NextGen Gallery: YES
+  Folder(s): 261-3
+  Image count (from thumbnails): 18
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2016/248467.html ---
+Year: 2016
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 10-11-59-bond-3
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2016/217961.html ---
+Year: 2016
+Status: OK - 60 img tags found
+NextGen Gallery: YES
+  Folder(s): 16top1-1
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2016/217735.html ---
+Year: 2016
+Status: OK - 53 img tags found
+NextGen Gallery: YES
+  Folder(s): 15top11
+  Image count (from thumbnails): 13
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2016/198705.html ---
+Year: 2016
+Status: OK - 25 img tags found
+NextGen Gallery: YES
+  Folder(s): 2016-06-25-yo1
+  Image count (from thumbnails): 20
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2016/191658.html ---
+Year: 2016
+Status: OK - 50 img tags found
+NextGen Gallery: YES
+  Folder(s): 15top3
+  Image count (from thumbnails): 10
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2016/176077.html ---
+Year: 2016
+Status: OK - 15 img tags found
+NextGen Gallery: YES
+  Folder(s): 2016-04-29-yo
+  Image count (from thumbnails): 10
+WordPress Gallery: NO
+
+--- https://www.dusit.ac.th/home/2016/157444.html ---
+Year: 2016
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2016-03-08-yo
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2015/133519.html ---
+Year: 2015
+Status: OK - 39 img tags found
+NextGen Gallery: YES
+  Folder(s): 2015-11-30-6
+  Image count (from thumbnails): 13
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2015/108195.html ---
+Year: 2015
+Status: OK - 31 img tags found
+NextGen Gallery: YES
+  Folder(s): 2015-05-07-1
+  Image count (from thumbnails): 5
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2015/120146.html ---
+Year: 2015
+Status: OK - 39 img tags found
+NextGen Gallery: YES
+  Folder(s): 29-9-58-bond-2
+  Image count (from thumbnails): 13
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2015/109388.html ---
+Year: 2015
+Status: OK - 36 img tags found
+NextGen Gallery: YES
+  Folder(s): 2015-06-23-2
+  Image count (from thumbnails): 10
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/55871.html ---
+Year: 2014
+Status: OK - 26 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014-10-06-2
+  Image count (from thumbnails): 0
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/53951.html ---
+Year: 2014
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014-08-15-2
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/53529.html ---
+Year: 2014
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014-08-06-1
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/53327.html ---
+Year: 2014
+Status: OK - 32 img tags found
+NextGen Gallery: YES
+  Folder(s): bond-31-7-57-2
+  Image count (from thumbnails): 6
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/51978.html ---
+Year: 2014
+Status: OK - 40 img tags found
+NextGen Gallery: NO
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2014/51276.html ---
+Year: 2014
+Status: OK - 40 img tags found
+NextGen Gallery: NO
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2014/51221.html ---
+Year: 2014
+Status: OK - 40 img tags found
+NextGen Gallery: NO
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2014/49895.html ---
+Year: 2014
+Status: OK - 35 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014_05_08_03
+  Image count (from thumbnails): 9
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/49535.html ---
+Year: 2014
+Status: OK - 40 img tags found
+NextGen Gallery: NO
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2014/49513.html ---
+Year: 2014
+Status: OK - 40 img tags found
+NextGen Gallery: NO
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2014/34149.html ---
+Year: 2014
+Status: OK - 50 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014_03_05_09
+  Image count (from thumbnails): 10
+WordPress Gallery: YES (22 images)
+
+--- https://www.dusit.ac.th/home/2014/7475.html ---
+Year: 2014
+Status: OK - 41 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014_02_20_06
+  Image count (from thumbnails): 15
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/71139.html ---
+Year: 2014
+Status: OK - 44 img tags found
+NextGen Gallery: YES
+  Folder(s): 3-12-57-bond-1
+  Image count (from thumbnails): 18
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/60454.html ---
+Year: 2014
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 6-11-57-bond
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/58799.html ---
+Year: 2014
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014-10-31-yo2
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2014/69652.html ---
+Year: 2014
+Status: OK - 38 img tags found
+NextGen Gallery: YES
+  Folder(s): 2014-12-1-3
+  Image count (from thumbnails): 12
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2987.html ---
+Year: 2013
+Status: OK - 41 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_07_30_14
+  Image count (from thumbnails): 15
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/3577.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_10_25_04
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/3459.html ---
+Year: 2013
+Status: OK - 36 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_09_30_09
+  Image count (from thumbnails): 10
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/3065.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_08_07_03
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2990.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_07_31_03
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2964.html ---
+Year: 2013
+Status: OK - 30 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_07_29_03
+  Image count (from thumbnails): 4
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2958.html ---
+Year: 2013
+Status: OK - 37 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_07_26_05
+  Image count (from thumbnails): 11
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2909.html ---
+Year: 2013
+Status: OK - 34 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_07_18_14
+  Image count (from thumbnails): 8
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2857.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_07_11_04
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2788.html ---
+Year: 2013
+Status: OK - 36 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_07_01_03
+  Image count (from thumbnails): 10
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2726.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_08_24_04
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2711.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_08_21_02_1
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2540.html ---
+Year: 2013
+Status: OK - 41 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_06_01_01
+  Image count (from thumbnails): 15
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2458.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_05_17_01
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2418.html ---
+Year: 2013
+Status: OK - 36 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_05_09_03
+  Image count (from thumbnails): 10
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2116.html ---
+Year: 2013
+Status: OK - 41 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_03_14_04
+  Image count (from thumbnails): 15
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2067.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_03_06_02
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/2019.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_02_27_03
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/1978.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_02_20_02
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+--- https://www.dusit.ac.th/home/2013/1928.html ---
+Year: 2013
+Status: OK - 46 img tags found
+NextGen Gallery: YES
+  Folder(s): 2013_02_13_10
+  Image count (from thumbnails): 20
+WordPress Gallery: YES (8 images)
+
+============================================
+Summary
+============================================
+
+Total pages: 183
+Successfully fetched: 183
+Errors: 0
+Pages with NextGen Gallery: 177
+Pages with WordPress Gallery: 47
+Pages with no gallery detected: 0
+Total <img> tags across all pages: 5206
