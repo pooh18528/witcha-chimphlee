@@ -1,4 +1,4 @@
-const activitiesData = [
+export let activitiesData = [
     {
         "id": 1,
         "title": "ประชุมสภาคณาจารย์ ครั้งที่ 9(14)/2569 (15 ก.ค. 2569)",
@@ -2232,6 +2232,19 @@ let currentYear = 'all';
 let searchQuery = '';
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Tab switching
+    document.getElementById('tab-activities').addEventListener('click', () => {
+        document.getElementById('tab-activities').classList.add('active');
+        document.getElementById('tab-face-search').classList.remove('active');
+        document.querySelector('.feed-section').style.display = 'block';
+        document.getElementById('face-search-section').style.display = 'none';
+    });
+    document.getElementById('tab-face-search').addEventListener('click', () => {
+        document.getElementById('tab-face-search').classList.add('active');
+        document.getElementById('tab-activities').classList.remove('active');
+        document.querySelector('.feed-section').style.display = 'none';
+        document.getElementById('face-search-section').style.display = 'block';
+    });
     // Update Stats
     document.getElementById('total-count').textContent = activitiesData.length;
     document.getElementById('year-footer').textContent = new Date().getFullYear() + 543;
@@ -2528,4 +2541,9 @@ function setupModalEvents() {
             }
         }, { passive: true });
     }
+
+    // Initialize Face Search
+    import('./face-search.js').then(mod => {
+        mod.initFaceSearch(activitiesData);
+    });
 }

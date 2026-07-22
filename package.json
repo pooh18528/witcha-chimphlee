@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@vladmandic/face-api": "^1.7.15"
   }
 }

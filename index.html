@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/face-search.css">
 </head>
 <body>
     <div class="background-animation"></div>
@@ -100,6 +101,37 @@
                 </div>
             </div>
         </section>
+
+        <!-- Face Search Section -->
+        <section class="face-search-section glass" id="face-search-section" style="display:none;">
+            <h2><i class="fas fa-search"></i> ค้นหาบุคคล (Face Recognition)</h2>
+            <p style="opacity:0.7;font-size:0.85rem;margin-bottom:1rem;">อัปโหลดรูปใบหน้าเพื่อค้นหาภาพที่ตรงกันในคลัง พร้อมวงกลมใบหน้าและนับจำนวนคน</p>
+            <div class="face-upload-area" id="face-upload-area">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h3>อัปโหลดรูปใบหน้า</h3>
+                <p>ลากรูปมาวางหรือคลิกเพื่อเลือกไฟล์</p>
+                <input type="file" id="face-file-input" accept="image/*" style="display:none;">
+                <div class="face-preview-wrapper">
+                    <img id="face-preview" style="display:none;">
+                    <canvas id="face-preview-canvas"></canvas>
+                </div>
+            </div>
+            <button class="primary-btn face-scan-btn" id="face-scan-btn" disabled><i class="fas fa-play"></i> เริ่มสแกน</button>
+            <div class="face-progress" id="face-progress" style="display:none;">
+                <div class="face-progress-bar">
+                    <div class="face-progress-fill" id="face-progress-fill"></div>
+                </div>
+                <p id="face-progress-text" style="margin-top:0.5rem;font-size:0.85rem;opacity:0.7;">กำลังสแกน...</p>
+            </div>
+            <p id="face-results-count" style="font-weight:600;margin-top:1rem;"></p>
+            <div class="face-results-grid" id="face-results-grid"></div>
+        </section>
+
+        <!-- Tab Buttons -->
+        <div class="tab-bar glass" style="display:flex;gap:0.5rem;margin-bottom:1rem;padding:0.5rem;border-radius:12px;justify-content:center;">
+            <button class="chip active" id="tab-activities"><i class="fas fa-list"></i> กิจกรรม</button>
+            <button class="chip" id="tab-face-search"><i class="fas fa-user"></i> ค้นหาบุคคล</button>
+        </div>
 
         <!-- Activities Feed Grid / Timeline -->
         <section class="feed-section">
