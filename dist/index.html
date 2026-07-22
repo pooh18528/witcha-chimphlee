@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คลังประวัติการประชุมและกิจกรรม | รศ.ดร.วิชชา ฉิมพลี</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <meta name="description" content="ระบบคลังรวบรวมประวัติการประชุมสภาคณาจารย์และพนักงาน กิจกรรม และงานวิชาการ รศ.ดร.วิชชา ฉิมพลี มหาวิทยาลัยสวนดุสิต">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="module" crossorigin src="./assets/index-aAu3z2V9.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Cb5DwMAQ.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+
+    <!-- Main Header & Profile Banner -->
+    <header class="hero-header glass">
+        <div class="header-container">
+            <div class="profile-avatar-wrapper">
+                <img src="./รูป/โปรไฟล์/profile_personnel.jpg" alt="รศ.ดร.วิชชา ฉิมพลี" class="avatar-img" id="avatar-img" onerror="this.src='./รูป/profile_personnel.jpg'">
+                <div class="status-badge"><i class="fas fa-check-circle"></i> สภาคณาจารย์และพนักงาน</div>
+            </div>
+            <div class="profile-details">
+                <div class="title-group">
+                    <h1>รองศาสตราจารย์ ดร.วิชชา ฉิมพลี</h1>
+                    <span class="en-name">Assoc.Prof. Dr. Witcha Chimphlee</span>
+                </div>
+                <p class="position-info"><i class="fas fa-briefcase"></i> ประธานสภาคณาจารย์และพนักงาน | ประธานหลักสูตรความมั่นคงปลอดภัยไซเบอร์</p>
+                <p class="affiliation"><i class="fas fa-university"></i> คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยสวนดุสิต</p>
+                <p class="degree-info"><i class="fas fa-graduation-cap"></i> Ph.D. (Computer Science) University Technology of Malaysia (UTM)</p>
+                
+                <div class="external-links">
+                    <a href="mailto:witcha.chi@gmail.com" class="chip-link"><i class="fas fa-envelope"></i> witcha.chi@gmail.com</a>
+                    <a href="https://scholar.google.co.th/citations?user=HoldOt8AAAAJ&hl=en" target="_blank" class="chip-link"><i class="fas fa-graduation-cap"></i> Scholar</a>
+                    <a href="https://www.researchgate.net/profile/Witcha-Chimphlee" target="_blank" class="chip-link"><i class="fab fa-researchgate"></i> ResearchGate</a>
+                    <a href="https://linkedin.com/in/witcha-chimphlee-1a49aa117" target="_blank" class="chip-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://dblp.uni-trier.de/pid/86/6106.html" target="_blank" class="chip-link"><i class="fas fa-book"></i> dblp</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stat Counter Bar -->
+    <section class="stats-bar glass">
+        <div class="stat-item">
+            <span class="stat-number" id="total-count">0</span>
+            <span class="stat-label">รายการประชุมและกิจกรรม</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" id="year-range">2556-2569</span>
+            <span class="stat-label">ช่วงปีที่บันทึกข้อมูล</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" id="photo-count">80+</span>
+            <span class="stat-label">ภาพบันทึกเหตุการณ์</span>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="main-container">
+        <!-- Control Panel: Filter & Search -->
+        <section class="controls-section glass">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="search-input" placeholder="ค้นหาการประชุม, กิจกรรม, หัวข้อ, หรือปี พ.ศ. ...">
+                <button id="clear-search" class="clear-btn" style="display: none;"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="filters-wrapper">
+                <div class="filter-group">
+                    <label><i class="fas fa-layer-group"></i> หมวดหมู่:</label>
+                    <div class="category-chips" id="category-chips">
+                        <button class="chip active" data-cat="all">ทั้งหมด</button>
+                        <button class="chip" data-cat="meeting">ประชุมสภาคณาจารย์</button>
+                        <button class="chip" data-cat="visit">ต้อนรับและดูงาน</button>
+                        <button class="chip" data-cat="academic">วิชาการ/วิทยากร</button>
+                        <button class="chip" data-cat="research">งานวิจัย/โปรไฟล์</button>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <label><i class="fas fa-calendar-alt"></i> ปี พ.ศ.:</label>
+                    <select id="year-select" class="custom-select">
+                        <option value="all">ทุกปี พ.ศ. (2556 - 2569)</option>
+                        <option value="2569">2569 (2026)</option>
+                        <option value="2568">2568 (2025)</option>
+                        <option value="2567">2567 (2024)</option>
+                        <option value="2566">2566 (2023)</option>
+                        <option value="2565">2565 (2022)</option>
+                        <option value="2564">2564 (2021)</option>
+                        <option value="2563">2563 (2020)</option>
+                        <option value="2562">2562 (2019)</option>
+                        <option value="2561">2561 (2018)</option>
+                        <option value="2560">2560 (2017)</option>
+                        <option value="2559">2559 (2016)</option>
+                        <option value="2558">2558 (2015)</option>
+                        <option value="2557">2557 (2014)</option>
+                        <option value="2556">2556 (2013)</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- Face Search Section -->
+        <section class="face-search-section glass" id="face-search-section" style="display:none;">
+            <h2><i class="fas fa-search"></i> ค้นหาบุคคล (Face Recognition)</h2>
+            <p style="opacity:0.7;font-size:0.85rem;margin-bottom:1rem;">อัปโหลดรูปใบหน้าเพื่อค้นหาภาพที่ตรงกันในคลัง พร้อมวงกลมใบหน้าและนับจำนวนคน</p>
+            <div class="face-upload-area" id="face-upload-area">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h3>อัปโหลดรูปใบหน้า</h3>
+                <p>ลากรูปมาวางหรือคลิกเพื่อเลือกไฟล์</p>
+                <input type="file" id="face-file-input" accept="image/*" style="display:none;">
+                <div class="face-preview-wrapper">
+                    <img id="face-preview" style="display:none;">
+                    <canvas id="face-preview-canvas"></canvas>
+                </div>
+            </div>
+            <button class="primary-btn face-scan-btn" id="face-scan-btn" disabled><i class="fas fa-play"></i> เริ่มสแกน</button>
+            <div class="face-progress" id="face-progress" style="display:none;">
+                <div class="face-progress-bar">
+                    <div class="face-progress-fill" id="face-progress-fill"></div>
+                </div>
+                <p id="face-progress-text" style="margin-top:0.5rem;font-size:0.85rem;opacity:0.7;">กำลังสแกน...</p>
+            </div>
+            <p id="face-results-count" style="font-weight:600;margin-top:1rem;"></p>
+            <div class="face-results-grid" id="face-results-grid"></div>
+        </section>
+
+        <!-- Tab Buttons -->
+        <div class="tab-bar glass" style="display:flex;gap:0.5rem;margin-bottom:1rem;padding:0.5rem;border-radius:12px;justify-content:center;">
+            <button class="chip active" id="tab-activities"><i class="fas fa-list"></i> กิจกรรม</button>
+            <button class="chip" id="tab-face-search"><i class="fas fa-user"></i> ค้นหาบุคคล</button>
+        </div>
+
+        <!-- Activities Feed Grid / Timeline -->
+        <section class="feed-section">
+            <div class="feed-header">
+                <h2><i class="fas fa-history"></i> ประวัติการประชุมและกิจกรรมทั้งหมด</h2>
+                <span id="showing-results" class="results-count">กำลังโหลดข้อมูล...</span>
+            </div>
+            
+            <div class="activity-grid" id="activity-grid">
+                <!-- Activity cards generated dynamically by JS -->
+            </div>
+            
+            <div id="no-results" class="no-results glass" style="display: none;">
+                <i class="fas fa-search-minus fa-3x"></i>
+                <h3>ไม่พบข้อมูลการประชุมหรือกิจกรรมตามคำค้นหา</h3>
+                <p>ลองเปลี่ยนคำค้นหาหรือล้างตัวกรองเพื่อดูรายการทั้งหมด</p>
+                <button id="reset-filters-btn" class="primary-btn">ล้างตัวกรองทั้งหมด</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Image Modal Viewer / Lightbox -->
+    <div id="image-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content glass">
+            <button class="close-modal-btn" id="close-modal"><i class="fas fa-times"></i></button>
+            <div class="modal-body">
+                <div class="main-modal-img-wrapper">
+                    <button class="modal-nav-btn prev-btn" id="modal-prev-btn" title="ภาพก่อนหน้า"><i class="fas fa-chevron-left"></i></button>
+                    <img id="modal-main-img" src="" alt="ภาพกิจกรรม">
+                    <button class="modal-nav-btn next-btn" id="modal-next-btn" title="ภาพถัดไป"><i class="fas fa-chevron-right"></i></button>
+                    <span id="modal-img-counter" class="modal-img-counter">1 / 1</span>
+                </div>
+                <div class="modal-thumbnails" id="modal-thumbnails">
+                    <!-- Thumbnails generated dynamically -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-info">
+                    <h3 id="modal-title" class="modal-title">หัวข้อมินิอัลบั้ม</h3>
+                    <p id="modal-desc" class="modal-desc">รายละเอียดกิจกรรม...</p>
+                </div>
+                <a id="modal-link-btn" href="#" target="_blank" class="primary-btn"><i class="fas fa-external-link-alt"></i> ดูรายละเอียดข่าวฉบับเต็ม</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer glass">
+        <p>© <span id="year-footer">2569</span> สภาคณาจารย์และพนักงาน มหาวิทยาลัยสวนดุสิต | รวบรวมและบันทึกประวัติกิจกรรม รศ.ดร.วิชชา ฉิมพลี</p>
+        <p class="accuracy-note">ดึงข้อมูลภาพจากเว็บไซต์ได้ <strong>2,414</strong> จากทั้งหมด <strong>3,693</strong> ภาพ (ความแม่นยำ <strong>65.37%</strong>) | รวมภาพท้องถิ่นอีก <strong>577</strong> ภาพ รวมทั้งสิ้น <strong>2,991</strong> ภาพ</p>
+    </footer>
+
+</body>
+</html>
