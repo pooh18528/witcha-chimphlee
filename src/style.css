@@ -698,6 +698,11 @@ body {
     font-size: 0.85rem;
     color: var(--text-muted);
 }
+.footer .accuracy-note {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
 
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
