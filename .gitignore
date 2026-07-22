@@ -3,3 +3,11 @@ dist/
 .vite/
 *.local
 .DS_Store
+
+# Image files (too large for GitHub - download separately)
+public/รูป/
+public/รูป_web/
+*.jpg
+*.JPG
+*.png
+*.PNG
