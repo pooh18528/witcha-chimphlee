@@ -2304,12 +2304,12 @@ function renderGrid() {
             const card = document.createElement('div');
             card.className = 'card-item';
 
-            const coverImage = item.images && item.images.length > 0 ? item.images[0] : './รูป/โปรไฟล์/profile_personnel.jpg';
+            const coverImage = item.images && item.images.length > 0 ? item.images[0] : './placeholder.svg';
             const imgCount = item.images ? item.images.length : 0;
 
             card.innerHTML = `
                 <div class="card-media" onclick="openModal(${item.id})">
-                    <img src="${coverImage}" alt="${item.title}" onerror="this.src='./รูป/โปรไฟล์/profile_personnel.jpg'" loading="lazy">
+                    <img src="${coverImage}" alt="${item.title}" onerror="this.src='./placeholder.svg'" loading="lazy">
                     ${imgCount > 1 ? `<span class="media-badge"><i class="fas fa-images"></i> ${imgCount} ภาพ</span>` : ''}
                 </div>
                 <div class="card-content">
@@ -2365,6 +2365,7 @@ function setupFilterEvents() {
 function setupSearchEvents() {
     const searchInput = document.getElementById('search-input');
     const clearBtn = document.getElementById('clear-search');
+    let searchDebounce;
 
     searchInput.addEventListener('input', (e) => {
         searchQuery = e.target.value;
@@ -2373,7 +2374,8 @@ function setupSearchEvents() {
         } else {
             clearBtn.style.display = 'none';
         }
-        renderGrid();
+        clearTimeout(searchDebounce);
+        searchDebounce = setTimeout(renderGrid, 200);
     });
 
     clearBtn.addEventListener('click', () => {
@@ -2402,7 +2404,7 @@ function openModal(itemId) {
     }
     linkBtn.href = item.url;
 
-    currentModalImages = item.images && item.images.length > 0 ? item.images : ['./รูป/โปรไฟล์/profile_personnel.jpg'];
+    currentModalImages = item.images && item.images.length > 0 ? item.images : ['./placeholder.svg'];
     currentModalIndex = 0;
 
     renderModalThumbnails();
@@ -2421,7 +2423,7 @@ function renderModalThumbnails() {
         thumb.src = imgSrc;
         thumb.className = `modal-thumb ${index === currentModalIndex ? 'active' : ''}`;
         thumb.loading = 'lazy';
-        thumb.onerror = () => { thumb.src = './รูป/โปรไฟล์/profile_personnel.jpg'; };
+        thumb.onerror = () => { thumb.src = './placeholder.svg'; };
         thumb.onclick = () => {
             updateModalImage(index);
         };
@@ -2447,7 +2449,7 @@ function updateModalImage(index) {
     const nextBtn = document.getElementById('modal-next-btn');
 
     mainImg.src = currentModalImages[currentModalIndex];
-    mainImg.onerror = () => { mainImg.src = './รูป/โปรไฟล์/profile_personnel.jpg'; };
+    mainImg.onerror = () => { mainImg.src = './placeholder.svg'; };
 
     if (counterBadge) {
         counterBadge.textContent = `${currentModalIndex + 1} / ${currentModalImages.length}`;

@@ -273,6 +273,7 @@ export async function initFaceSearch(activities) {
             img.src = `./${match.path}`;
             img.loading = 'lazy';
             img.alt = 'Target Person Evidence Image';
+            img.onerror = () => { img.src = './placeholder.svg'; };
 
             const overlay = document.createElement('canvas');
             overlay.className = 'result-overlay';
