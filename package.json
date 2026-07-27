@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "predev": "node scripts/copy-images.mjs",
+    "dev": "npm run predev && vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
