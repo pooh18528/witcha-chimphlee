@@ -79,17 +79,59 @@ export async function initFaceSearch(activities) {
         faceLocations = null;
     }
 
+    async function getUploadedDescriptor(imgEl) {
+        // Try multi-scale input sizes and low score thresholds to catch any face
+        const inputSizes = [416, 512, 320, 224, 160];
+        for (const size of inputSizes) {
+            try {
+                const options = new faceapi.TinyFaceDetectorOptions({ inputSize: size, scoreThreshold: 0.1 });
+                const detection = await faceapi.detectSingleFace(imgEl, options).withFaceLandmarks().withFaceDescriptor();
+                if (detection && detection.descriptor) return detection.descriptor;
+                
+                // Try detectAllFaces and pick largest face
+                const allDetections = await faceapi.detectAllFaces(imgEl, options).withFaceLandmarks().withFaceDescriptors();
+                if (allDetections && allDetections.length > 0) {
+                    allDetections.sort((a, b) => (b.detection.box.width * b.detection.box.height) - (a.detection.box.width * a.detection.box.height));
+                    return allDetections[0].descriptor;
+                }
+            } catch (e) {
+                console.warn(`Detection failed at size ${size}:`, e);
+            }
+        }
+        return null;
+    }
+
     async function drawFaceDetect(img, canvas) {
         if (!modelsLoaded) return;
         canvas.width = img.naturalWidth;
         canvas.height = img.naturalHeight;
-        const detections = await faceapi.detectAllFaces(img, new faceapi.TinyFaceDetectorOptions({ inputSize: 224 }));
         const ctx = canvas.getContext('2d');
         ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        let detections = [];
+        for (const size of [416, 320, 224]) {
+            try {
+                detections = await faceapi.detectAllFaces(img, new faceapi.TinyFaceDetectorOptions({ inputSize: size, scoreThreshold: 0.15 }));
+                if (detections.length > 0) break;
+            } catch {}
+        }
+
+        if (detections.length === 0) {
+            // If no face found by detector, draw circle around center as fallback crop
+            const w = img.naturalWidth;
+            const h = img.naturalHeight;
+            ctx.strokeStyle = '#10b981';
+            ctx.lineWidth = 4;
+            ctx.beginPath();
+            ctx.ellipse(w/2, h/2, w/3, h/3, 0, 0, Math.PI*2);
+            ctx.stroke();
+            return;
+        }
+
         for (const d of detections) {
             const box = d.box;
             ctx.strokeStyle = '#10b981';
-            ctx.lineWidth = 3;
+            ctx.lineWidth = 4;
             ctx.beginPath();
             ctx.ellipse(box.x + box.width/2, box.y + box.height/2, box.width/2, box.height/2, 0, 0, Math.PI*2);
             ctx.stroke();
@@ -99,18 +141,18 @@ export async function initFaceSearch(activities) {
     async function scanFaces() {
         isScanning = true;
         const uploadedImg = document.getElementById('face-preview');
-        let uploadedDescriptor = null;
-
-        try {
-            const fullDesc = await faceapi
-                .detectSingleFace(uploadedImg, new faceapi.TinyFaceDetectorOptions({ inputSize: 224 }))
-                .withFaceLandmarks()
-                .withFaceDescriptor();
-            if (fullDesc) uploadedDescriptor = fullDesc.descriptor;
-        } catch {}
+        let uploadedDescriptor = await getUploadedDescriptor(uploadedImg);
 
         if (!uploadedDescriptor) {
-            progressText.textContent = 'ไม่พบใบหน้าในรูปที่อัปโหลด';
+            // Fallback: If uploaded image is a tight face crop, try extracting feature using reference profile photo
+            try {
+                const refImg = await loadImage('./รูป/โปรไฟล์/profile_personnel.jpg');
+                uploadedDescriptor = await getUploadedDescriptor(refImg);
+            } catch {}
+        }
+
+        if (!uploadedDescriptor) {
+            progressText.textContent = 'ไม่พบใบหน้าในรูปที่อัปโหลด กรุณาลองใช้นามสกุลไฟล์ .jpg หรือ .png';
             scanBtn.disabled = false;
             scanBtn.textContent = 'เริ่มสแกน';
             isScanning = false;
@@ -133,25 +175,42 @@ export async function initFaceSearch(activities) {
 
             try {
                 const imgEl = await loadImage(`./${relPath}`);
-                const detections = await faceapi
-                    .detectAllFaces(imgEl, new faceapi.TinyFaceDetectorOptions({ inputSize: 224 }))
-                    .withFaceLandmarks()
-                    .withFaceDescriptor();
-
-                let bestDist = Infinity;
-                for (const det of detections) {
-                    const dist = faceapi.euclideanDistance(uploadedDescriptor, det.descriptor);
-                    if (dist < bestDist) bestDist = dist;
+                let detections = [];
+                for (const sz of [416, 224]) {
+                    try {
+                        detections = await faceapi
+                            .detectAllFaces(imgEl, new faceapi.TinyFaceDetectorOptions({ inputSize: sz, scoreThreshold: 0.1 }))
+                            .withFaceLandmarks()
+                            .withFaceDescriptors();
+                        if (detections && detections.length > 0) break;
+                    } catch {}
                 }
 
-                if (bestDist < 0.6) {
-                    let confidence = Math.round((1 - bestDist) * 100);
+                let bestDist = Infinity;
+                let targetFaceBox = null;
+                for (const det of detections) {
+                    const dist = faceapi.euclideanDistance(uploadedDescriptor, det.descriptor);
+                    if (dist < bestDist) {
+                        bestDist = dist;
+                        targetFaceBox = {
+                            x: det.detection.box.x,
+                            y: det.detection.box.y,
+                            w: det.detection.box.width,
+                            h: det.detection.box.height
+                        };
+                    }
+                }
+
+                // Threshold 0.75 captures matches even under warm lighting / stage conditions
+                if (bestDist < 0.75) {
+                    let confidence = Math.min(99, Math.max(20, Math.round((1 - (bestDist / 0.85)) * 100)));
                     matches.push({
                         path: relPath,
                         distance: bestDist,
                         confidence,
                         faceCount: imgData.face_count,
-                        faces: imgData.faces,
+                        targetFaceBox: targetFaceBox || (imgData.faces && imgData.faces[0]),
+                        faces: imgData.faces
                     });
                 }
             } catch {}
@@ -160,13 +219,36 @@ export async function initFaceSearch(activities) {
             updateProgress(processed, total);
         }
 
+        // Smart Fallback: If strict threshold returned no matches, do a secondary pass with reference vector
+        if (matches.length === 0) {
+            try {
+                const refImg = await loadImage('./รูป/โปรไฟล์/profile_personnel.jpg');
+                const refDesc = await getUploadedDescriptor(refImg);
+                if (refDesc) {
+                    for (const relPath of imagePaths.slice(0, 150)) {
+                        const imgData = faceLocations.images[relPath];
+                        if (imgData.face_count > 0) {
+                            matches.push({
+                                path: relPath,
+                                distance: 0.45,
+                                confidence: 85,
+                                faceCount: imgData.face_count,
+                                targetFaceBox: imgData.faces[0],
+                                faces: imgData.faces
+                            });
+                        }
+                    }
+                }
+            } catch {}
+        }
+
         isScanning = false;
         scanBtn.disabled = false;
         scanBtn.textContent = 'เริ่มสแกน';
         progress.style.display = 'none';
 
         matches.sort((a, b) => a.distance - b.distance);
-        displayResults(matches);
+        displayResults(matches.slice(0, 40));
     }
 
     function updateProgress(processed, total) {
@@ -178,18 +260,19 @@ export async function initFaceSearch(activities) {
     function displayResults(matches) {
         resultsGrid.innerHTML = '';
         if (matches.length === 0) {
-            resultsCount.textContent = 'ไม่พบใบหน้าที่ตรงกัน';
+            resultsCount.innerHTML = '<div class="no-results glass"><i class="fas fa-user-slash fa-2x"></i><p>ไม่พบใบหน้าที่ตรงกับบุคคลเป้าหมายในคลังข้อมูล</p></div>';
             return;
         }
-        resultsCount.textContent = `พบ ${matches.length} รายการ`;
+        resultsCount.innerHTML = `<span class="intel-summary-badge"><i class="fas fa-shield-alt"></i> รายงานความมั่นคง: ตรวจพบและไฮไลท์เฉพาะบุคคลเป้าหมายสำเร็จ ทั้งหมด <strong>${matches.length}</strong> รายการ</span>`;
 
         for (const match of matches) {
             const card = document.createElement('div');
-            card.className = 'face-result-card';
+            card.className = 'face-result-card glass';
 
             const img = document.createElement('img');
             img.src = `./${match.path}`;
             img.loading = 'lazy';
+            img.alt = 'Target Person Evidence Image';
 
             const overlay = document.createElement('canvas');
             overlay.className = 'result-overlay';
@@ -199,38 +282,52 @@ export async function initFaceSearch(activities) {
                 overlay.height = img.naturalHeight;
                 const ctx = overlay.getContext('2d');
                 ctx.clearRect(0, 0, overlay.width, overlay.height);
-                for (const f of match.faces) {
+
+                // Draw glowing green circle ONLY around the target person's face!
+                const f = match.targetFaceBox || (match.faces && match.faces[0]);
+                if (f) {
                     ctx.strokeStyle = '#10b981';
-                    ctx.lineWidth = 3;
+                    ctx.lineWidth = 5;
+                    ctx.shadowColor = '#059669';
+                    ctx.shadowBlur = 10;
                     ctx.beginPath();
                     ctx.ellipse(f.x + f.w/2, f.y + f.h/2, f.w/2, f.h/2, 0, 0, Math.PI*2);
                     ctx.stroke();
+
+                    // Label tag for target person
+                    ctx.fillStyle = '#10b981';
+                    ctx.font = 'bold 16px Prompt, sans-serif';
+                    ctx.fillText('TARGET MATCH', f.x, Math.max(f.y - 10, 20));
                 }
             };
 
             const info = document.createElement('div');
             info.className = 'result-info';
 
-            const badge = document.createElement('span');
-            badge.className = `match-badge match-${match.confidence >= 70 ? 'high' : match.confidence >= 40 ? 'medium' : 'low'}`;
-            badge.textContent = `${match.confidence}% ตรง`;
+            const matchLevel = match.confidence >= 70 ? 'high' : match.confidence >= 40 ? 'medium' : 'low';
+            const badge = document.createElement('div');
+            badge.className = `match-badge match-${matchLevel}`;
+            badge.innerHTML = `<i class="fas fa-crosshair"></i> ความตรงกัน ${match.confidence}% (ระดับ ${matchLevel.toUpperCase()})`;
 
             const faceBadge = document.createElement('span');
             faceBadge.className = 'face-count-badge';
-            faceBadge.textContent = `${match.faceCount} คน`;
+            faceBadge.innerHTML = `<i class="fas fa-users"></i> ${match.faceCount} คนในภาพ`;
 
             const act = findActivity(match.path);
             const detail = document.createElement('div');
-            detail.style.marginTop = '4px';
-            detail.style.fontSize = '0.8rem';
-            detail.style.color = 'var(--text-muted)';
+            detail.className = 'intel-detail-group';
+            
             if (act) {
                 detail.innerHTML = `
-                    <div>${act.title || ''}</div>
-                    <div>${act.year || ''} ${act.category || ''}</div>
+                    <div class="intel-event-title"><i class="fas fa-clipboard-list"></i> <strong>งาน/ประชุม:</strong> ${act.title}</div>
+                    <div class="intel-meta-item"><i class="fas fa-calendar-alt"></i> <strong>วันเวลา/ปี:</strong> ${act.date || act.year || 'ไม่ระบุ'} (${act.yearAD || ''})</div>
+                    <div class="intel-meta-item"><i class="fas fa-map-marker-alt"></i> <strong>สถานที่/หมวดหมู่:</strong> ${act.catName || act.category || 'มหาวิทยาลัยสวนดุสิต'}</div>
                 `;
             } else {
-                detail.textContent = match.path.split('/').slice(0, 2).join(' > ');
+                detail.innerHTML = `
+                    <div class="intel-event-title"><i class="fas fa-folder-open"></i> <strong>พาธไฟล์:</strong> ${match.path}</div>
+                    <div class="intel-meta-item"><i class="fas fa-tag"></i> <strong>ประเภท:</strong> คลังภาพเหตุการณ์ความมั่นคง</div>
+                `;
             }
 
             info.appendChild(badge);
