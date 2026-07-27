@@ -3,6 +3,7 @@ node_modules/
 *.local
 .DS_Store
 
-# Image source folders - uncomment if you want to exclude from git
-# public/รูป/
-# public/รูป_web/
+# Image source folders (too large for GitHub - pre-built in dist/)
+public/รูป/
+public/รูป_web/
+
