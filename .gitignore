@@ -2,8 +2,11 @@ node_modules/
 .vite/
 *.local
 .DS_Store
+vite.config.js.timestamp-*
 
 # Image source folders (too large for GitHub - pre-built in dist/)
 public/รูป/
 public/รูป_web/
 
+# Gallery scraping results (local only)
+gallery_results/

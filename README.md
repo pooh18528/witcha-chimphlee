@@ -60,7 +60,7 @@ git clone https://github.com/pooh18528/witcha-chimphlee.git
 cd witcha-chimphlee
 ```
 
-### 2. ติดตั้ง Dependencies
+### 2. ติดตั้ง Dependencies (Node.js)
 ```bash
 npm install
 ```
@@ -71,9 +71,13 @@ npm run dev
 ```
 เปิดเว็บเบราว์เซอร์ที่: **`http://localhost:5173`**
 
+> **หมายเหตุ**: ระบบจะคัดลอกภาพจาก `dist/` ไปยัง `public/` อัตโนมัติเมื่อรัน `npm run dev` (ผ่าน `predev` script) รองรับทั้ง Windows, macOS, และ Linux
+
 ### 4. (ทางเลือก) รันสคริปต์สแกนใบหน้า OpenCV บน Python
 ```bash
+pip install -r requirements.txt
 python scripts/detect_faces.py
+python scripts/opencv_suspect_tracker.py
 ```
 
 ---
@@ -83,3 +87,8 @@ python scripts/detect_faces.py
 - **Frontend**: HTML5, Vanilla CSS3 (Glassmorphism Design UI), JavaScript ES Modules
 - **Build Tool**: Vite
 - **Data & Data Science**: Python 3, NumPy, JSON Datasets
+
+---
+
+## 📜 License
+MIT License — © 2569 (2026) รศ.ดร.วิชชา ฉิมพลี | มหาวิทยาลัยสวนดุสิต

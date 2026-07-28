@@ -219,27 +219,9 @@ export async function initFaceSearch(activities) {
             updateProgress(processed, total);
         }
 
-        // Smart Fallback: If strict threshold returned no matches, do a secondary pass with reference vector
+        // If no matches found after full scan, report clearly
         if (matches.length === 0) {
-            try {
-                const refImg = await loadImage('./รูป/โปรไฟล์/profile_personnel.jpg');
-                const refDesc = await getUploadedDescriptor(refImg);
-                if (refDesc) {
-                    for (const relPath of imagePaths.slice(0, 150)) {
-                        const imgData = faceLocations.images[relPath];
-                        if (imgData.face_count > 0) {
-                            matches.push({
-                                path: relPath,
-                                distance: 0.45,
-                                confidence: 85,
-                                faceCount: imgData.face_count,
-                                targetFaceBox: imgData.faces[0],
-                                faces: imgData.faces
-                            });
-                        }
-                    }
-                }
-            } catch {}
+            console.log('[Face Search] No matching faces found in the archive.');
         }
 
         isScanning = false;
